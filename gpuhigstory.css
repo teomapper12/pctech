@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(2b46888cc7900b921b85dcc8d9f3e497.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.title{
+    position: absolute;
+    top: 20%;
+    left: 19%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: #fff;
+    font-size: 70px;
+    
+}
+
+
+
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: black;
+    
+}   
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: black;
+}
+
+
+.description{
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
+
+.description p{
+    color: #fff;
+    font-size: 16px;
+}
+
+.ggg{
+    position: absolute;
+    top: 90%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: black;
+}
+.logo{
+    float: right;
+    width: 150px;
+    height: auto;
+    position: absolute;
+    top: 49%;
+    right: 8%;
+    transform: translate(-50%,-50%);
+}
+
+.ak{
+    position: absolute;
+    top: 58%;
+    right: 6%;
+    transform: translate(-50%,-50%);
+}
+
+.ak a{
+    color: #fff;
+    font-size: 11px;
+}
+

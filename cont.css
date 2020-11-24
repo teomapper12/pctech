@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(motherboard.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.title{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: #fff;
+    font-size: 70px;
+    
+}
+.title p{
+    color: #fff;
+    font-size: 20px;
+}
+
+
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: black;
+    
+}   
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: black;
+}
+
+
+.forma{
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    padding: 5px 20px;
+
+}
+
+
+
+
+.title p3{
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 120%;
+    left: 1%;
+}
+
+
+.title p4{
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 120%;
+    left: 65%;
+}
+
+.title p5{
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 280%;
+    left: 35%;
+}
+
+.forma1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    padding: 20px 40px;
+}
+
+.forma2{
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    padding: 20px 40px;
+}
+
+.forma3{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.kkwaza{
+    list-style-type: none;
+    float: left;
+    margin-top: 0px;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 10%;
+
+}
+
+ul li.aka a{
+     background-color: #fff;
+     color: black;
+}
